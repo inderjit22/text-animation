@@ -1,0 +1,137 @@
+.white{
+    color: whitesmoke;
+}
+.contMain{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.contScroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:7px
+}
+.scrol{
+    font-size: 27px;
+}
+.navBox{
+    width: 100%;
+    height: fit-content;
+    padding: 20px 27px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 400;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    z-index: 9;
+}
+p{
+    display: flex;
+    gap: 7px;
+}
+.arrow{
+   font-size: 18px;
+   color: rgb(236, 142, 74);
+   font-weight: bold;
+}
+
+.contDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2vw;
+    position: relative;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.last{
+    width: 100%;
+    height: fit-content;
+    padding: 20px 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+}
+
+.imgBox{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background: url('../src/img/bgBlack.jpg');
+    opacity: 0.2;
+}
+
+.contInnerDiv{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.spanOuter{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    position: relative;
+}
+
+.innerPO{
+    font-size: 4vw;
+    color: rgba(126, 126, 126, 0.486);
+}
+
+.innerPI{
+    font-size: 4vw;
+    color: whitesmoke;
+    white-space: nowrap;
+    width: 0%;
+    overflow: hidden;
+}
+
+.spanInner{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+@media (max-width:600px) {
+    .innerPO{
+        font-size:8.5vw;
+    }
+    .innerPI{
+        font-size:8.5vw;
+    }
+    .contDiv{
+        padding: 0px 5vw;
+    }
+    .circle{
+        opacity: 0;
+    }
+}

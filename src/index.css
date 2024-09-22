@@ -1,0 +1,19 @@
+@font-face {
+  font-family: TSB;
+  src: url('../src/font/Trap-SemiBold.otf');
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: TSB;
+  user-select: none;
+}
+html,body{
+  width: 100%;
+  height: 100vh;
+  background-color: #1d1d1f;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
